@@ -1,0 +1,55 @@
+/* style.css */
+
+body { margin: 0; font-family: 'Poppins', sans-serif; background-color: #111; color: #f2f2f2; }
+
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+header { background-color: #1a1a1a; padding: 20px 0; border-bottom: 2px solid #e60023; display: flex; align-items: center; justify-content: space-between; }
+
+.logo { display: flex; align-items: center; }
+
+.logo .profile-pic { width: 40px; height: 40px; border-radius: 50%; margin-right: 10px; }
+
+header nav a { color: #f2f2f2; text-decoration: none; margin-left: 20px; transition: color 0.3s; }
+
+header nav a:hover { color: #e60023; }
+
+.hero { text-align: center; padding: 100px 20px; background: linear-gradient(to right, #1a1a1a, #330000); }
+
+.hero h2 { font-size: 36px; margin-bottom: 10px; }
+
+.hero .btn { display: inline-block; padding: 10px 30px; background-color: #e60023; color: white; border: none; border-radius: 6px; text-decoration: none; transition: background 0.3s; }
+
+.hero .btn:hover { background-color: #b3001a; }
+
+section { padding: 60px 20px; }
+
+h2 { font-size: 28px; margin-bottom: 20px; color: #e60023; }
+
+.skills ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 15px; }
+
+.skills li { background-color: #222; padding: 10px 20px; border-radius: 6px; border: 1px solid #e60023; }
+
+.projects .project { margin-bottom: 40px; }
+
+.projects img { max-width: 100%; border-radius: 6px; margin-bottom: 10px; border: 2px solid #e60023; }
+
+.project-link { display: inline-block; margin-top: 10px; color: #e60023; text-decoration: underline; }
+
+form { display: flex; flex-direction: column; gap: 15px; }
+
+form input, form textarea { padding: 10px; border: none; border-radius: 6px; background-color: #1a1a1a; color: white; border: 1px solid #e60023; }
+
+form button { padding: 10px; background-color: #e60023; color: white; border: none; border-radius: 6px; cursor: pointer; transition: background 0.3s; }
+
+form button:hover { background-color: #b3001a; }
+
+footer { background-color: #1a1a1a; padding: 30px 20px; text-align: center; border-top: 2px solid #e60023; }
+
+footer .social a { color: #f2f2f2; margin: 0 10px; font-size: 20px; transition: color 0.3s; }
+
+footer .social a:hover { color: #e60023; }
+
+@media (max-width: 768px) { header nav { display: flex; flex-direction: column; gap: 10px; align-items: center; } .skills ul { flex-direction: column; } .projects .project { text-align: center; } .logo h1 { font-size: 18px; } }
+
+ 
